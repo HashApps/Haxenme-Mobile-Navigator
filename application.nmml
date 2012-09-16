@@ -10,7 +10,7 @@
 	
 	<window background="#ffffff" fps="60" />
 	<window width="1024" height="768" unless="mobile" />
-	<window orientation="landscape" vsync="true" antialiasing="0" if="cpp" />
+	<window orientation="landscape" vsync="true" antialiasing="0"/>
 	
 	<!-- classpath, haxe libs -->
 	<source path="src" />
@@ -19,7 +19,6 @@
 	
 	<!-- assets -->
 	<icon path="assets/nme.svg" />
-	<assets path="assets/img" rename="img" />
 	
 	<!-- DLLs -->
 	<ndll name="std" />
