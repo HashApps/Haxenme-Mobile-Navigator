@@ -6,6 +6,7 @@ import nme.display.Sprite;
 import nme.events.Event;
 import nme.events.MouseEvent;
 import nme.text.TextField;
+import nme.text.TextFieldType;
 import nme.text.TextFormat;
 import com.hashapps.navigator.events.ViewNavigatorEvent;
 
@@ -27,6 +28,8 @@ class View1 extends View
 		
 		label.text = "View 1";
 		label.setTextFormat(tf , 0, label.text.length);
+		
+		label.selectable = false;
 		
 		addChild(label);
 		

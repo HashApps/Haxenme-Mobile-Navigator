@@ -28,6 +28,8 @@ class View2 extends View
 		label.text = "View 2";
 		label.setTextFormat(tf , 0, label.text.length);
 		
+		label.selectable = false;
+		
 		addChild(label);
 		
 		addEventListener(MouseEvent.CLICK, onClick);
