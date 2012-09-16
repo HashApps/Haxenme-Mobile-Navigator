@@ -47,6 +47,7 @@ class MobileNavigator extends Sprite
 		newView.navigator = this;
 		
 		addChild(newView);
+		newView.dispatchEvent(new ViewNavigatorEvent(ViewNavigatorEvent.VIEW_ACTIVATED, ViewNavigatorAction.NONE, null, newView));
 		
 		views = new Array<View>();
 		views.push(newView);
